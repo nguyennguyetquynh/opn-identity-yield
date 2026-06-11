@@ -34,7 +34,18 @@ Community-driven decision making through token voting.
 
 ## Smart Contract
 
-Deployed on OPN Chain Testnet.
+Network: OPN Chain Testnet
+
+Contract Name: OPN Identity Yield
+
+Contract Address:
+
+0x2a6Fb698A2691f48cAe6A4315001b6B86BF55860
+
+The smart contract enables identity-aware staking and serves as the foundation for future reward and reputation mechanisms within the OPN Identity Yield ecosystem.
+
+
+
 
 ## Tech Stack
 
