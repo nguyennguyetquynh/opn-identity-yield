@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OPN Identity Yield</title>
+    <style>
+        body{
+            font-family: Arial;
+            background:#0f172a;
+            color:white;
+            text-align:center;
+            padding-top:80px;
+        }
+        button{
+            padding:12px 24px;
+            border:none;
+            border-radius:10px;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+
+<h1>OPN Identity Yield</h1>
+
+<p>Stake based on on-chain identity reputation.</p>
+
+<button onclick="connectWallet()">
+Connect MetaMask
+</button>
+
+<script>
+async function connectWallet(){
+    if(window.ethereum){
+        const accounts =
+        await ethereum.request({
+            method:'eth_requestAccounts'
+        });
+
+        alert(
+            "Connected: " + accounts[0]
+        );
+    }
+}
+</script>
+
+</body>
+</html>
